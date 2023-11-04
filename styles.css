@@ -1,0 +1,467 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: all ease 0.9s;
+    
+}
+
+
+
+header {
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    width: 97%;
+    height: 40px;
+    top: 26px;
+    left: 140px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+}
+
+/* Estilo del logotipo */
+.logo img {
+    height: 50px;
+    max-width: 100%;
+}
+
+/* Estilo de la navegación */
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li:last-child {
+    margin-right: 0;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Estilo de los íconos de redes sociales */
+.social-icons a {
+    margin-left: 10px;
+}
+
+.social-icons img {
+    height: 30px;
+    max-width: 100%;
+}
+
+.image-text-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #f0f0f0; /* Cambia el color de fondo según tus preferencias */
+    width: 100vw;
+    height: 600px;
+    top: 112px;
+    left: 140px;
+    top: 112px;
+    left: 140px;
+    margin-top: 0%;
+    max-width: 100%;
+
+}
+#imagensec4{
+    transition: all ease 2s;
+    
+}
+#imagensec4:hover {
+    content: url(./img/imagen\ cambio\ hover.jpg);
+    scale: 3;
+
+}
+
+#imagenmia {
+    box-shadow: 5px 5px 10px 2px #888888;
+}
+
+#imgtercerascec {
+    transition: all ease 2s;
+}
+
+#imgtercerascec:hover {
+    content: url(./img/imagen\ cambio\ hover.jpg);
+    scale: 3;
+}
+
+#imganonimu {
+    transition: all ease 2s;
+}
+
+#imganonimu:hover {
+    content: url(./img/imagen\ cambio\ hover.jpg);
+    scale: 3;
+}
+
+/* Estilo de la imagen */
+
+.image {
+width: 600px;
+height: 600px;
+top: -5px;
+left: 132px;
+max-width: 100%;
+}
+
+.image img {
+    width: 600px;
+    height: 600px;
+    top: -5px;
+    left: 1312px;
+    max-width: 100%;
+
+}
+
+#textoprimeraseccion {
+    text-align: justify;
+    font-size: large;
+    font-style: oblique;
+}
+
+/* Estilo del contenido de texto */
+.text-content {
+    flex: 1;
+    padding: 20px;
+}
+
+/* Estilo del botón */
+.button {
+    width: Hug (185px);
+    height: Hug (30px);
+    gap: 24px;
+    top: 436px;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007BFF; /* Cambia el color del botón según tus preferencias */
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.button:hover {
+    background-color: #0056b3; /* Cambia el color al pasar el mouse por encima */
+}
+
+.text-content p{
+    font-size: 19px;
+    justify-content: center;
+    text-align: justify;
+}
+
+/*hasta aqui la primera seccion*/
+.imagenes-de-proyectos{
+    background-color: #3BAA6F;
+    width: 100vw;
+    height: 693px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.image-container {
+    width: 1268px;
+    height: 556px;
+    background-color: white;
+    /* align-items: center; */
+    position: relative;
+}
+
+.image-container>img {
+    width: 452px;
+    height: 271px;
+    max-width: 100%;
+    /* top: 251px; */
+    /* left: 186px; */
+}
+#imagen-amazon-seccion2{
+    position: absolute;
+    top: 0;
+    right: 52px;
+    width: 273px;
+    height: 563px;
+    left: 1121px;
+    background-color: #D9D9D9;
+    z-index: 3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.halloween {
+    display: none;
+    font-size: 2.2rem;
+    z-index: 500;
+    background: #8e8e8e9f;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+#imagen-amazon-seccion2:hover .halloween {
+    display: block;
+}
+
+#imagen-amazon-seccion2 img{   
+    top: 30%;
+    left: 5%;
+    width: 150px;
+    max-width: 100%;
+}
+
+.image1 {
+    position: absolute;
+    top: 30%;
+    left: 5%;
+    box-shadow: 5px 5px 10px 2px #888888;
+}
+.image2 {
+    position: absolute;
+    top: 20%;
+    right: 20%;
+    box-shadow: 5px 5px 10px 2px #888888;
+}
+.image3 {
+    position: absolute;
+    top: 10%;
+    left: 18%;
+    box-shadow: 5px 5px 10px 2px #888888;
+}
+.image4 {
+    position: absolute;
+    top: 40%;
+    left: 25%;
+    box-shadow: 5px 5px 10px 2px #888888;
+}
+
+/* Estilo de la sección púrpura */
+.purple-section {
+    background-color:#765CE1;
+    display: flex;
+    width: 100vw;
+    height: 693px;
+    position: relative;
+    z-index: 1;
+    
+}
+
+img {
+    border-radius: 5%;
+    max-width: 100%;
+}
+
+/* Estilo del aside gris */
+.gray-div {
+    margin-left: 64px;
+    background-color: #D9D9D9;
+    width: 280px;
+    height: 556px;
+    right: 74%;
+    position: absolute;
+    z-index: 3;
+    justify-content: center;
+    padding: 2%;
+    display: flex;
+    align-items: center;
+
+}
+
+/* Estilo del contenido centrado */
+.centered-content {
+    position: absolute;
+    width: 73%;
+    height: 580px;
+    background-color: white;
+    justify-content: center;
+    left: 20%;
+    top: 10%;
+    z-index: 2;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding-left: 10%;
+    padding-right: 4%;
+    
+}
+
+#textoagradecimiento {
+    text-align: center;
+    font-size: large;
+    font-style: oblique;
+}
+
+section {
+    margin-top: 5%;
+}
+
+/*estilos seccion 4*/
+
+.ultima-seccion {
+    background-color: #DC777B;
+    width: 100vw;
+    height: 693px;
+    z-index: 1;
+    padding: 25px;
+    position: relative;
+
+}
+
+#div-gris-seccion4 {
+    position: absolute;
+    right: 52px;
+    width: 273px;
+    height: 523px;
+    left: 1121px;
+    background-color: #D9D9D9;
+    z-index: 2;
+    left: 1121px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.blanco-seccion4 {
+    display: flex;
+    align-items: center;
+    width: 1268px;
+    height:550px;
+    flex-shrink: 0;
+    background-color: white;
+    right: 40%;
+    padding: 25px;
+    
+}
+
+/*SECCION CONTACTO*/
+
+.contact-section {
+    position: absolute;
+    width: 99%;
+    height: 400px;
+    background-color: white;
+    justify-content: center;
+    background-color: #f0f0f0;
+    padding: 20px;
+    margin-top: 0%;
+    
+}
+
+#imagengrandesec4 {
+    max-width: 100% !important;
+    height: auto !important;
+    position: absolute;
+    top: 10%;
+    width: 900px;
+
+}
+
+#imgtercerasec {
+    top: 30%;
+    left: 5%;
+    width: 150px;
+}
+
+#imagensec4 {
+    top: 30%;
+    left: 5%;
+    width: 150px;
+
+}
+
+/* Estilos de las etiquetas P en la parte izquierda */
+.contact-left {
+    float: left;
+    width: 50%;
+}
+
+/* Estilos de la etiqueta P en la parte derecha */
+.contact-right {
+    float: right;
+    width: 50%;
+}
+
+/* Estilos del pie de página */
+.footer {
+    clear: both;
+    text-align: center;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+/* Estilos de los íconos de redes sociales */
+.social-icons {
+    margin-top: 10px;
+}
+
+.social-icons a {
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.continua {
+    display: block;
+    content: "";
+    border-top: 1px solid #ccc; /* Estilo de línea continua con color gris */
+    margin: 20px 0; /* Espacio antes y después de la línea continua */
+    clear: both; /* Limpia los flotantes, si los hay */
+}
+
+
+
+/*diseño responsive*/
+
+/* Estilos para pantallas más pequeñas (menos de 768px de ancho) */
+@media (max-width: 768px) {
+    .image-text-section {
+        flex-direction: column; /* Cambia la dirección de los elementos en dispositivos móviles */
+    }
+    .text-content, .image {
+        width: 100%; /* Ocupa el 100% del ancho en dispositivos móviles */
+    }
+    .social-icons {
+        text-align: center; /* Centra los íconos en dispositivos móviles */
+    }
+}
+
+
+
+.image-container .image1:hover {
+    z-index: 6;
+    transform:scale(1,2);
+    transition: all ease 2s;
+}
+.image-container .image2:hover {
+    
+    transform:scale(1,2);
+    transition: all ease 2s;
+}
+
+.image-container .image3:hover {
+    z-index: 6;
+    transform:scale(1,2);
+    transition: all ease 2s;
+}
+.image-container .image4:hover {
+    z-index: 6;
+    transform:scale(1,2);
+    transition: all ease 2s;
+}
+
